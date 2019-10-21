@@ -1,0 +1,116 @@
+/* CSS STYLESHEET FOR FFIV-BOSS-COMPENDIUM
+------------------------------------------*/
+
+body {
+    background-color: #112442;
+    /* border: 1 px solid #FFFFFF; */
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* preserves sharpness in images (no blurry pixels) */
+img {
+    image-rendering: pixelated;
+}
+
+/* CSS for centering responsive images */
+.img-responsive {
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* vertical alignment for columns
+.vertical-center {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+} */
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #00FFF2;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    color: #FFFF00;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Crimson Text', serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Crimson Text', serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#disc {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* link styling */
+a:link {
+    color: white;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+}
+
+/* styling for the navbar*/ 
+.navbar-inverse {
+    background-color: #1d304f;
+}
+
+/* styling for active navbar button (long specification) */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav >
+.active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #112442;
+}
+
+/* styling for navbar navigation button */
+.custom-toggle.navbar-toggle {
+  border-color: #111111;
+  background-color: #112442;
+}
